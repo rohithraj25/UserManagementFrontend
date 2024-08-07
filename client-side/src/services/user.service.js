@@ -89,7 +89,7 @@
 import axios from 'axios';
 import { BehaviorSubject } from 'rxjs';
 
-const API_URL = 'http://localhost:8765/user/service/';
+const API_URL = 'http://52.52.69.204:8765/user/service/';
 
 const currentUserSubject = new BehaviorSubject(JSON.parse(localStorage.getItem('currentUser')));
 
