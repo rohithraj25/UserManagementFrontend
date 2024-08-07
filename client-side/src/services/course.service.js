@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-let API_URL = 'http://localhost:8765/course/service/';
+let API_URL = 'http://52.52.69.204:8765/course/service/';
 
 
 class CourseService {
